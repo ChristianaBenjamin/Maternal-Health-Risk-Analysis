@@ -2,7 +2,7 @@
 
 ### Exploratory analysis of demographic and clinical factors associated with maternal risk classification
 
-![Maternal Health in Bangladesh]
+![Maternal Health in Bangladesh](https://github.com/ChristianaBenjamin/Maternal-Health-Risk-Analysis/blob/main/images/maternal-health-banner.png)
 
 ## 📌 Project Overview
 Maternal health risk can be influenced by a combination of demographic and
@@ -20,8 +20,8 @@ within the dataset and assess what the available data can and cannot support.
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](...)
 
 ## 🎯 Research Question
-**What demographic and clinical factors are associated with increased
-> maternal health risk?**
+
+**What demographic and clinical factors are associated with increased maternal health risk?**
 
 ## ❓ Analytical Questions
 
@@ -45,6 +45,9 @@ The analysis investigates the following questions:
 
 The dataset contains maternal health measurements collected from rural areas
 of Bangladesh.
+
+### Data Source
+Ahmed, M. (2020). Maternal Health Risk [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5DP5D.
 
 ### Variables
 | Variable | Description |
@@ -85,7 +88,7 @@ that every repeated row represented an error.
 
 ### 1. Distribution of Maternal Risk Classification
 
-![Risk Distribution](images/risk-distribution.png)
+![Risk Distribution](https://github.com/ChristianaBenjamin/Maternal-Health-Risk-Analysis/blob/main/images/age_risk_distribution.png)
 
 The dataset contains observations classified as low, mid, and high risk.
 Understanding the distribution of these categories provides context for
@@ -95,7 +98,7 @@ interpreting the subsequent comparisons.
 
 ### 2. Maternal Age and Risk Classification
 
-![Age and Risk Distribution](images/age-risk-distribution.png)
+![Age and Risk Distribution](https://github.com/ChristianaBenjamin/Maternal-Health-Risk-Analysis/blob/main/images/risk_distribution_across_groups.png)
 
 Risk classification varied across maternal age groups. Older age groups,
 particularly the 40+ group, contained a greater proportion of high-risk
@@ -108,7 +111,8 @@ establish that age independently causes increased maternal risk.
 
 ### 3. Blood Sugar and Maternal Risk
 
-![Blood Sugar by Risk Level](images/blood-sugar-risk.png)
+![Blood Sugar by Risk Level](https://github.com/ChristianaBenjamin/Maternal-Health-Risk-Analysis/blob/main/images/blood_sugar_boxplot.png)
+
 
 Blood sugar showed one of the clearest differences across risk
 classifications.
@@ -120,9 +124,6 @@ variable to examine when comparing the risk groups in this dataset.
 ---
 
 ### 4. Blood Pressure and Maternal Risk
-
-![Blood Pressure by Risk Level](images/blood-pressure-risk.png)
-
 Both systolic and diastolic blood pressure showed higher central values among
 high-risk records.
 
@@ -132,6 +133,7 @@ blood pressure alone does not perfectly distinguish the classifications.
 ---
 
 ## 🔗 Relationships Between Clinical Measurements
+![Correlation_heatmap](https://github.com/ChristianaBenjamin/Maternal-Health-Risk-Analysis/blob/main/images/clinical_correlation.png)
 
 Correlation analysis was used to examine relationships among the numerical
 clinical variables.
@@ -240,10 +242,10 @@ maternal-health-risk-analysis/
 │
 ├── images/
 │   ├── maternal-health-banner.jpg
-│   ├── risk-distribution.png
+│   ├── risk_distribution_across_groups.png
 │   ├── age-risk-distribution.png
-│   ├── blood-sugar-risk.png
-│   └── blood-pressure-risk.png
+│   ├── blood_sugar_boxplot.png
+│   └── clinical_correlation.png
 │
 ├── notebooks/
 │   └── maternal_health_risk_analysis.ipynb
@@ -260,6 +262,7 @@ the Jupyter Notebook.
 
 Benjamin Christiana Ifelola
 
-Data Science Learner | Healthcare Professional
+Data Analyst |Aspiring Data Scientist | Healthcare Professional
 
-LinkedIn
+GitHub: https://github.com/ChristianaBenjamin
+LinkedIn: https://www.linkedin.com/in/christiana-benjamin-a54495163/
